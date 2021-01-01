@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_practice_project/formpage/form_page.dart';
+import 'package:flutter_practice_project/radiobutton/radiobutton_page.dart';
 
+// import 'package:flutter_practice_project/formpage/form_page.dart';
 // import 'package:flutter_practice_project/checkbox/checkbox_page.dart';
 // import 'package:flutter_practice_project/dialog/dialog_page.dart';
 // import 'package:flutter_practice_project/provider/home_page.dart';
@@ -22,10 +23,11 @@ class MyApp extends StatelessWidget {
         scaffoldBackgroundColor: Colors.white,
         visualDensity: VisualDensity.adaptivePlatformDensity,
       ),
-      home: FormPage(),
+      home: RadioButtonPage(),
     );
   }
 }
+// home: FormPage(),
 // home: CheckboxPage(),
 // home: DialogPage(),
 // home: HomePageProvider(),
