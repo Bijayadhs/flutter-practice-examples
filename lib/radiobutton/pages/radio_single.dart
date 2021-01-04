@@ -16,7 +16,6 @@ class _RadioButtonSingleWidgetState extends State<RadioButtonSingleWidget> {
         children: [
           Radio<int>(
             value: 1,
-            autofocus: true,
             activeColor: Colors.red,
             focusColor: Colors.green,
             hoverColor: Colors.pink,
