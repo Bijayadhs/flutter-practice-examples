@@ -1,6 +1,9 @@
-import 'package:flutter/material.dart';
-import 'package:flutter_practice_project/radiobutton/radiobutton_page.dart';
+//Samsung A20 Running app
 
+import 'package:flutter/material.dart';
+import 'package:flutter_practice_project/app_bar/app_bar.dart';
+
+// import 'package:flutter_practice_project/radiobutton/radiobutton_page.dart';
 // import 'package:flutter_practice_project/formpage/form_page.dart';
 // import 'package:flutter_practice_project/checkbox/checkbox_page.dart';
 // import 'package:flutter_practice_project/dialog/dialog_page.dart';
@@ -23,10 +26,11 @@ class MyApp extends StatelessWidget {
         scaffoldBackgroundColor: Colors.white,
         visualDensity: VisualDensity.adaptivePlatformDensity,
       ),
-      home: RadioButtonPage(),
+      home: AppBarPage(),
     );
   }
 }
+// home: RadioButtonPage(),
 // home: FormPage(),
 // home: CheckboxPage(),
 // home: DialogPage(),
