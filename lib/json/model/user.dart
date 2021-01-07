@@ -15,4 +15,6 @@ class User {
         email: json['email'],
         urlAvatar: json['urlAvatar'],
       );
+  // factory User.fromJson(Map<String, Dynamic> json) => User();
+  // rootBundle.loadString('assets/ ')
 }

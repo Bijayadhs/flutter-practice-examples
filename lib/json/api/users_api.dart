@@ -14,7 +14,7 @@ class UsersApi {
 
   static Future<List<User>> getUsersLocally(BuildContext context) async {
     final assetBundle = DefaultAssetBundle.of(context);
-    final response = await assetBundle.loadString('assets/user.json');
+    final response = await assetBundle.loadString('assets/users.json');
     final body = json.decode(response);
     return body.map<User>(User.fromJson).toList();
   }

@@ -19,7 +19,6 @@ class UserPage extends StatelessWidget {
           mainAxisAlignment: MainAxisAlignment.center,
           children: <Widget>[
             CircleAvatar(
-              radius: 20,
               backgroundImage: NetworkImage(user.urlAvatar),
             ),
             SizedBox(height: 40),
