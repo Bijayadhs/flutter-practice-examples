@@ -1,8 +1,12 @@
 //Samsung A20 Running app
 
 import 'package:flutter/material.dart';
-import 'package:flutter_practice_project/transition/transition_page.dart';
+import 'package:flutter_practice_project/animatedIcon/animated_icon.dart';
 
+// import 'package:flutter_practice_project/slidable/slidable.dart';
+// import 'package:flutter_practice_project/flushbar/flushbar.dart';
+// import 'package:flutter_practice_project/battery_page/battery_page.dart';
+// import 'package:flutter_practice_project/transition/transition_page.dart';
 // import 'package:flutter_practice_project/stream/stream_page.dart';
 // import 'package:flutter_practice_project/json/json_page.dart';
 // import 'package:flutter_practice_project/app_bar/app_bar.dart';
@@ -29,10 +33,14 @@ class MyApp extends StatelessWidget {
         scaffoldBackgroundColor: Colors.white,
         visualDensity: VisualDensity.adaptivePlatformDensity,
       ),
-      home: TransitionPage(),
+      home: AnimatedIconPage(),
     );
   }
 }
+// home: SlidablePage(),
+// home: FlushbarPage(),
+// home: BatteryPage(),
+// home: TransitionPage(),
 // home: StreamPage(),
 // home: JsonPage(),
 // home: AppBarPage(),
